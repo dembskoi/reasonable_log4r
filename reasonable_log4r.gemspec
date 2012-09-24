@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
  s.name        = 'reasonable_log4r'
  s.version     = ReasonableLog4r::VERSION
  s.license     = 'New BSD License'
- s.date        = '2012-09-16'
+ s.date        = '2012-09-24'
  s.summary     = "Patches log4r gem to make it work in a reasonable way(Tm)."
  s.description = "Reasonable patches to log4r gem including root loggers having outputters and yaml configurator supporting many files and yaml sections."
  s.authors     = ["Keith Gabryelski"]
@@ -17,4 +17,7 @@ Gem::Specification.new do |s|
  s.require_path = 'lib'
  s.homepage    = 'http://github.com/fiksu/reasonable_log4r'
  s.add_dependency 'log4r', '1.1.10'
+ s.add_dependency "pg"
+ s.add_dependency "rails", '>= 3.0.0'
+ s.add_dependency 'rspec-rails'
 end
