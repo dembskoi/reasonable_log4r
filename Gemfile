@@ -12,3 +12,4 @@ gemspec
 
 # To use debugger
 # gem 'ruby-debug'
+gem 'log4r', '1.1.10'

@@ -107,4 +107,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  log4r (= 1.1.10)
   reasonable_log4r!
